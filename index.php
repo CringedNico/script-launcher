@@ -1,4 +1,18 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Server - Script Launcher</title>
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Script Launcher</a>
+            </div>
+        </nav>
+        <!-- Pagina-->
+        <div class="container">
             <form method="POST">
                 <div class="text-center mt-5">
                     <div class="d-grid gap-2">
@@ -29,3 +43,6 @@
                 </div>
             </form>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
